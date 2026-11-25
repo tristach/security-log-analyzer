@@ -1,8 +1,8 @@
 
-username = "John"
-downloads = 500
-downloads =  50
 
-if downloads > 100: 
-    print("Alert!");
-else: print("Under 100")
+
+downloads = [500, 50, 250, 101]
+
+for count in downloads:
+    if count > 100:
+        print("Alert!")
